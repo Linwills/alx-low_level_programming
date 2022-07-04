@@ -1,0 +1,11 @@
+#!/bin/bash
+touch $1
+chmod 777 $1
+echo "#include	<stdlib.h>
+#include	<time.h>
+#include	<stdio.h>" > $1
+git add .                                                                     
+
+git commit -m "C-programming excercise"                                       
+
+git  push && clear

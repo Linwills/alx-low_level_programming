@@ -1,4 +1,5 @@
 #!/bin/bash
+git pull
 touch $1
 chmod 777 $1
 echo "#include	<stdlib.h>
